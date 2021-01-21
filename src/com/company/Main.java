@@ -1,20 +1,21 @@
 package com.company;
-import  java.util.*;
+import easy.Contains_Duplicate;
+import easy.Contains_DuplicateII;
 
-import java.text.ChoiceFormat;
-import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
 
+//
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
 //Scanner scanner = new Scanner(System.in);
-        int [] arr = {2,1,3};
+        int [] arr = {1,2,3,1};
+        int k= 3;
         Contains_Duplicate dup = new Contains_Duplicate();
         System.out.println(dup.containsDuplicate(arr));
+        Contains_DuplicateII dup2 = new Contains_DuplicateII();
+        System.out.println(dup2.containsNearbyDuplicate(arr,k));
+
 
 
     }

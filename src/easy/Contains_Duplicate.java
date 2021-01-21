@@ -1,4 +1,4 @@
-package com.company;
+package easy;
 
 //Given an array of integers, find if the array contains any duplicates.
 //
@@ -8,6 +8,7 @@ import java.util.HashSet;
 
 //Input: [1,2,3,1]
 //Output: true
+
 public class Contains_Duplicate {
     public  boolean containsDuplicate(int[] nums) {
         HashSet<Integer> nSet =new HashSet<Integer>();
