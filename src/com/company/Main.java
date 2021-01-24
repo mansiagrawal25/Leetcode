@@ -10,7 +10,7 @@ public class Main {
 	// write your code here
 //Scanner scanner = new Scanner(System.in);
         int [] arr = {1,2,3,1};
-        int k= 11;
+        int k= 2;
         String [] str = {"flower","flee","fish"};
         Contains_Duplicate dup = new Contains_Duplicate();
         System.out.println(dup.containsDuplicate(arr));
@@ -22,6 +22,8 @@ public class Main {
         System.out.println(numbOne.countDigitOne(k));
         LongestCommonPrefix lcp =new LongestCommonPrefix();
         System.out.println(lcp.longestCommonPrefix(str));
+        ShuffleArray shuffle = new ShuffleArray();
+        System.out.println(shuffle.shuffle(arr,k));
 
 
 
