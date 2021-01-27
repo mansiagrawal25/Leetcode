@@ -14,6 +14,7 @@ public class Main {
 	// write your code here
 //Scanner scanner = new Scanner(System.in);
         int [] arr = {1,2,3,1};
+        char[] ch = {'h','e','l','l','o'};
         int k= 2;
         int j =31;
         String [] str = {"flower","flee","fish"};
@@ -32,6 +33,8 @@ public class Main {
         kthLargestElementInArray kl = new kthLargestElementInArray();
         System.out.println(k+" largest number in array: "+ kl.findKthLargest(arr,k));
         ArrayList<Integer> numbers = new ArrayList<Integer>();
+        ReverseAString rs = new ReverseAString();
+        System.out.println("String: "+ rs.reverseString(ch));
         numbers.add(5);
         numbers.add(9);
         numbers.add(8);
