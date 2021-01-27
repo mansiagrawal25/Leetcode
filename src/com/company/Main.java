@@ -1,6 +1,10 @@
 package com.company;
+import Medium.kthLargestElementInArray;
 import easy.*;
 import hard.NumberOfDigitOne;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
 
 
 //
@@ -25,6 +29,16 @@ public class Main {
         System.out.println(lcp.longestCommonPrefix(str));
         ShuffleArray shuffle = new ShuffleArray();
         System.out.println(shuffle.shuffle(arr,k));
+        kthLargestElementInArray kl = new kthLargestElementInArray();
+        System.out.println(k+" largest number in array: "+ kl.findKthLargest(arr,k));
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers.add(5);
+        numbers.add(9);
+        numbers.add(8);
+        numbers.add(1);
+        Consumer<Integer> method = (n) -> { System.out.println(n); };
+        numbers.forEach( method );
+
 
 
 
