@@ -5,7 +5,7 @@ import easy.LinkedListCycleSolution;
 public class LinkedListCycleII {
 
     // * Definition for singly-linked list.
-     class ListNode {
+    static class ListNode {
          int val;
          ListNode next;
          ListNode(int x) {
